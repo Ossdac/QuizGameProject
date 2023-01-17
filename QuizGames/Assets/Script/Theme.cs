@@ -13,6 +13,7 @@ public class Theme
 
     public string ThemeName { get { return title; } }
     public string ThemeDescription { get { return themeDescription; } }
+    public Question[] Questions { get { return questions; } }
 
     public Theme() { }
 
